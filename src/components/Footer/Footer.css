@@ -1,0 +1,33 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+    
+    justify-content: space-between;
+    
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between; /* Space out the items evenly */
+    align-items: center; /* Center items vertically */
+    font-size: 18px;
+}
+
+.footer-top-left {
+    margin: 0; /* Ensure no extra margins */
+   
+}
+
+.footer-top-right {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.footer-top-right p {
+    margin: 0; /* Ensure no extra margins */
+    cursor: pointer; /* Make text clickable if needed */
+}
